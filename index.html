@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Portfolio of Shaktivel T K: data engineering, GenAI and deep learning.">
+    <title>Data Engineer & AI/ML · Shaktivel T K</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body data-page="home">
+    <main class="container">
+        <div class="hero">
+            <div>
+                <span class="status"><i></i>Open to opportunities</span>
+                <div class="who"><img class="avatar" src="assets/photo.png"
+                        onerror="this.onerror=null;this.src='assets/photo-placeholder.svg'"
+                        alt="Photo of Shaktivel T K">
+                    <div>
+                        <h1>Shaktivel T K</h1>
+                        <div class="role">Data Engineer · AI/ML · Cloud</div>
+                    </div>
+                </div>
+                <p class="lead">I build data pipelines on Azure and AWS and real-time AI applications. I'm a computer
+                    science student at SRM IST, and right now I'm digging into how large language models can run faster
+                    and lighter.</p>
+                <div class="cta"><a class="btn go lg" href="projects.html">See my work</a><a class="btn lg"
+                        href="research.html">Current research</a></div>
+                <div class="socials"><a href="https://github.com/shaktivel07">GitHub</a><a
+                        href="https://linkedin.com/in/shaktivel07">LinkedIn</a><a
+                        href="mailto:shaktivelkumaresan07@gmail.com">Email</a></div>
+            </div>
+            <div class="win" aria-hidden="true">
+                <div class="bar"><i></i><i></i><i></i><span>profile.py</span></div>
+                <pre><span class="k">class</span> <span class="f">Engineer</span>:
+    name  = <span class="s">"Shaktivel T K"</span>
+    focus = [<span class="s">"Data Engineering"</span>,
+             <span class="s">"GenAI &amp; LLMs"</span>,
+             <span class="s">"Deep Learning"</span>]
+    cloud = [<span class="s">"Azure"</span>, <span class="s">"AWS"</span>]
+    exploring = [<span class="s">"KV-cache optimization"</span>,
+                 <span class="s">"GLM architectures"</span>,
+                 <span class="s">"PCA"</span>]
+
+    <span class="k">def</span> <span class="f">mission</span>(self):
+        <span class="c"># raw data -> reliable insight</span>
+        <span class="k">return</span> <span class="s">"Bronze → Silver → Gold"</span></pre>
+            </div>
+        </div>
+        <section>
+            <div class="head">
+                <h2>Selected projects</h2><a href="projects.html">All projects</a>
+            </div>
+            <div class="grid c3">
+                <article class="card proj">
+                    <h3><a href="project-realtime-multimodal-ai-avatar-platform.html">Realtime Multimodal AI Avatar
+                            Platform</a><span class="pub">2026</span></h3>
+                    <ul>
+                        <li>Built a production-ready multimodal conversational AI avatar with Tavus Conversational Video
+                            Interface (CVI) and LLM-based persona grounding, enabling real-time text, voice and live
+                            video interactions.</li>
+                        <li>Developed a React + TypeScript frontend with live avatar streaming and a transcript UI.</li>
+                        <li>Engineered a secure Node.js backend for conversation orchestration and REST API integration.
+                        </li>
+                        <li>Implemented personalized knowledge grounding from structured Markdown for context-aware
+                            responses.</li>
+                        <li>Designed scalable, low-latency real-time session management.</li>
+                    </ul>
+                    <div class="chips"><span class="chip">Python</span><span class="chip">React</span><span
+                            class="chip">TypeScript</span><span class="chip">Node.js</span><span class="chip">Tavus
+                            CVI</span><span class="chip">LLM</span></div>
+                </article>
+                <article class="card proj">
+                    <h3><a href="project-ai-capstone-project-deep-learning.html">AI Capstone Project: Deep
+                            Learning</a><span class="pub">2026</span></h3>
+                    <ul>
+                        <li>Engineered an end-to-end deep learning pipeline that combines CNN feature extraction with
+                            Vision Transformers (ViT) for land-use classification.</li>
+                        <li>Designed and trained custom CNN and ViT architectures from scratch, using data augmentation,
+                            regularization and dynamic early stopping to reduce overfitting by ~15%.</li>
+                        <li>Tuned learning rates, batch sizes and optimizer schedules, speeding up training convergence
+                            by ~35%.</li>
+                        <li>Reached 97.2% classification accuracy on the EuroSAT dataset, benchmarking convolutional
+                            backbones against transformer latencies with confusion matrices.</li>
+                    </ul>
+                    <div class="chips"><span class="chip">Python</span><span class="chip">PyTorch</span><span
+                            class="chip">TensorFlow/Keras</span><span class="chip">CNN</span><span
+                            class="chip">ViT</span><span class="chip">Data Augmentation</span></div>
+                </article>
+                <article class="card proj">
+                    <h3><a href="project-scalable-azure-data-engineering-pipeline-with-medallion-architecture.html">Scalable
+                            Azure Data Engineering Pipeline with Medallion Architecture</a><span class="pub">2026</span>
+                    </h3>
+                    <ul>
+                        <li>Built an end-to-end Azure pipeline in Azure Databricks and PySpark that automates ingestion,
+                            cleansing and transformation through Bronze, Silver and Gold Medallion layers, producing
+                            analytics-ready datasets.</li>
+                        <li>Used Delta Live Tables (DLT) for orchestration and incremental processing, and Star Schema
+                            models with SCD Type 2 for historical tracking.</li>
+                        <li>Enforced data governance with Unity Catalog and optimized the Gold layer for Power BI
+                            reporting.</li>
+                    </ul>
+                    <div class="chips"><span class="chip">Azure</span><span class="chip">Azure Databricks</span><span
+                            class="chip">PySpark</span><span class="chip">Python</span><span class="chip">Delta
+                            Lake</span><span class="chip">DLT</span><span class="chip">ADLS Gen2</span></div>
+                </article>
+            </div>
+        </section>
+        <section>
+            <div class="head">
+                <h2>What I'm studying now</h2><a href="research.html">Research page</a>
+            </div>
+            <div class="card"><a class="big-link"
+                    href="research-kv-cache-optimization-for-efficient-llm-inference.html">KV-Cache Optimization for
+                    Efficient LLM Inference<small>Attention caching, MQA/GQA, quantized caches and eviction
+                        strategies</small></a><a class="big-link" href="research.html">GLM Architecture &amp; Novel
+                    Model Design<small>Blank-infilling pretraining, hybrid attention, mixture-of-experts
+                        routing</small></a><a class="big-link"
+                    href="research-principal-component-analysis-for-dimensionality-reduction.html">Principal Component
+                    Analysis for Dimensionality Reduction<small>Explained variance, eigendecomposition and feature
+                        engineering</small></a></div>
+        </section>
+        <div class="card cta-box">
+            <h2>Want to talk?</h2>
+            <p>Reach out about roles, projects or research.</p><a class="btn go lg" href="contact.html">Get in touch</a>
+        </div>
+    </main>
+    <script src="assets/app.js"></script>
+</body>
+
+</html>

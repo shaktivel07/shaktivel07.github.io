@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Autoregressive transformers generate one token at a time. Caching the attention keys and values of earlier tokens means they are computed once instead of on every step; the cost is GPU memory, which grows with context length. This line of study is about shrinking and managing that cache."><title>KV-Cache Optimization for Efficient LLM Inference · Shaktivel T K</title><link rel="stylesheet" href="assets/style.css"></head>
+<body data-page="research"><main class="container">
+<a class="crumb" href="research.html">← All research</a><div class="page-title"><h1>KV-Cache Optimization for Efficient LLM Inference</h1><p>Autoregressive transformers generate one token at a time. Caching the attention keys and values of earlier tokens means they are computed once instead of on every step; the cost is GPU memory, which grows with context length. This line of study is about shrinking and managing that cache.</p></div>
+<section><div class="head"><h2>Focus areas</h2><span class="res-meta">Ongoing · 2026</span></div><div class="card proj detail"><ul>
+<li>Studying Key-Value (KV) cache mechanisms in autoregressive transformer inference, and how caching prior attention states avoids redundant recomputation and reduces latency in LLMs.</li>
+<li>Exploring memory-reduction techniques including Multi-Query Attention (MQA), Grouped-Query Attention (GQA) and quantized KV-cache representations to lower GPU memory use in long-context generation.</li>
+<li>Analyzing trade-offs between cache eviction strategies (sliding window, attention-sink retention) and generation quality for extended context lengths.</li>
+</ul></div>
+<div class="detail-chips"><h3>Topics</h3><div class="chips"><span class="chip">Transformer Attention</span><span class="chip">Memory-Bound Inference</span><span class="chip">PyTorch</span></div></div></section>
+<nav class="pn" aria-label="More research"><span></span><a href="research-glm-architecture-novel-model-design.html">GLM Architecture & Novel Model Design →</a></nav>
+<div class="card cta-box"><h2>Want to talk?</h2><p>Reach out about roles, projects or research.</p><a class="btn go lg" href="contact.html">Get in touch</a></div>
+</main>
+<script src="assets/app.js"></script></body></html>
