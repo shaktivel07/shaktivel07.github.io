@@ -1,5 +1,5 @@
 const pg=document.body.dataset.page;
-const L=[["index.html","Home","home"],["about.html","About","about"],["education.html","Education","education"],["experience.html","Experience","experience"],["projects.html","Projects","projects"],["research.html","Research","research"],["skills.html","Skills","skills"]];
+const L=[["index.html","Home","home"],["about.html","About","about"],["education.html","Education","education"],["experience.html","Experience","experience"],["projects.html","Projects","projects"],["research.html","Research","research"],["skills.html","Skills","skills"],["resume.html","Resume","resume"]];
 const M=[["achievements.html","Achievements","achievements"],["certifications.html","Certifications","certifications"],["leadership.html","Leadership","leadership"]];
 const lk=l=>`<a href="${l[0]}" class="${l[2]===pg?'on':''}" ${l[2]===pg?'aria-current="page"':''}>${l[1]}</a>`;
 const logo='<img src="assets/photo.png" alt="Shaktivel T K" class="brand-avatar" width="32" height="32" onerror="this.onerror=null;this.src=\'assets/photo-placeholder.svg\'">';

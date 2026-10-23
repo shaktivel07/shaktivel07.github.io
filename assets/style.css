@@ -93,9 +93,9 @@ footer nav{display:flex;gap:16px;flex-wrap:wrap}
 }
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.proj{transition:none}}
 /* v3 additions */
-.nav{gap:2px}.nav a,.nav summary{font-size:14px}
+.nav{gap:1px}.nav a,.nav summary{font-size:12px}
 details.more{position:relative}
-details.more summary{list-style:none;cursor:pointer;color:var(--text);padding:6px 12px;border-radius:6px}
+details.more summary{list-style:none;cursor:pointer;color:var(--text);padding:5px 7px;border-radius:6px}
 details.more summary::-webkit-details-marker{display:none}
 details.more summary::after{content:" ▾";font-size:11px}
 details.more summary:hover,details.more.on summary{background:#21262d}details.more.on summary{color:var(--white);font-weight:600}
@@ -114,6 +114,7 @@ details.more div{display:flex;flex-direction:column;padding-left:12px}
 .detail-chips{margin-top:20px;display:grid;gap:8px}.detail-chips h3{font-size:14px;color:var(--mute);font-weight:600}
 section .btn{margin-top:24px}
 .pn{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-size:14px}
+.resume-viewer{width:95vw;margin-left:50%;transform:translateX(-50%);background:var(--panel);border:1px solid var(--line);border-radius:6px;overflow:hidden}.resume-viewer iframe{display:block;width:100%;height:min(80vh,1000px);border:0}
 .proj h3 a:hover{text-decoration:underline}
 
 /* v5: education */
